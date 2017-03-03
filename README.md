@@ -1,25 +1,31 @@
 # hdf-tutorials-ja
 
-- プロジェクトの概要
-- Ambariをさわってみよう
-  - HDFスタックの構成
-  - HDFクラスタの管理概要  
-- HDFを活用したシステムを作ってみよう
-  - データの取込
-    - NiFiでHTTP POSTを受信
-    - NiFiでJSONから情報を抽出
-    - Kafkaトピックの作成
-    - NiFiからKafkaへメッセージ転送
-  - データの公開
-    - NiFiでKafkaトピックからメッセージを受信
-    - NiFiでファイルシステムへ保存
-  - リアルタイムストリーム分析
-    - StormでKafkaからメッセージ受信
-    - StormのリアルタイムWindow分析
-    - Stormの分析結果をKafkaへと送信
-- おまけ
-  - ZeppelinからSparkを利用しJSONファイルをSQLで分析
+## プロジェクトの概要
 
+## HDFとは
+- HDFスタックの構成
+- HDFクラスタの管理概要  
+- Ambariをさわってみよう
+
+## HDFを活用したシステムを作ってみよう
+
+### データの取込
+- NiFiでHTTP POSTを受信
+- NiFiでJSONから情報を抽出
+- Kafkaトピックの作成
+- NiFiからKafkaへメッセージ転送
+
+### データの公開
+- NiFiでKafkaトピックからメッセージを受信
+- NiFiでファイルシステムへ保存
+
+### リアルタイムストリーム分析
+- StormでKafkaからメッセージ受信
+- StormのリアルタイムWindow分析
+- Stormの分析結果をKafkaへと送信
+
+## おまけ
+- ZeppelinからSparkを利用しJSONファイルをSQLで分析 注: ZeppelinはHDFのコンポーネントではありません。
 
 ## その他のチュートリアル
 本プロジェクトのWikiページではHDF(Hortonworks Data Flow)チュートリアルの日本語訳も公開しています。
